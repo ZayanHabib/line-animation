@@ -1,0 +1,30 @@
+.dashed1 {
+    stroke-dasharray: 10, 10;
+    stroke-dashoffset: 1300;
+    animation: dash1 5s ease forwards;
+}
+/* Created by Zayan */
+.dashed2 {
+    stroke-dasharray: 10, 10;
+    stroke-dashoffset: 1300;
+    animation: dash2 5s ease forwards;
+}
+/* Created by Zayan */
+@keyframes dash1 {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+/* Created by Zayan */
+@keyframes dash2 {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+/* Created by Zayan */
+.line-svg {
+    width: 312px;
+    height: 130px;
+}
+
+/* Created by Zayan */
